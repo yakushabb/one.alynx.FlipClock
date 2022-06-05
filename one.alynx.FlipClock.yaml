@@ -18,5 +18,5 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://github.com/AlynxZhou/flipclock/archive/v2.9.0.tar.gz
-        sha512: 87409109005fe75dac2047a9eeafd4cd092998ba580a2061d01dda59a58650535655bd21a841508b2ec205da8e6cfd054fca08a4efabd54bf6b58530cf9be658
+        url: https://github.com/AlynxZhou/flipclock/archive/v2.10.0.tar.gz
+        sha512: 71196c708b845164e22f20fd2b3d2752e877f0084d4e04baf2da34e594e263c30da69d277a78f379ef3b87dccd245201142b2656ee84e692bda395fae5cebdc7
