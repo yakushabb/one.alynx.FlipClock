@@ -1,0 +1,33 @@
+From d85d6bd1167c73ca46a9da670cb9016d743bcd43 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Fri, 8 Nov 2024 21:56:50 +0300
+Subject: [PATCH] appdata: fix appdata papercuts
+
+---
+ dists/one.alynx.FlipClock.metainfo.xml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/dists/one.alynx.FlipClock.metainfo.xml b/dists/one.alynx.FlipClock.metainfo.xml
+index 4c97181..35d2fe0 100644
+--- a/dists/one.alynx.FlipClock.metainfo.xml
++++ b/dists/one.alynx.FlipClock.metainfo.xml
+@@ -12,6 +12,7 @@
+   <content_rating type="oars-1.1" />
+   
+   <launchable type="desktop-id">one.alynx.FlipClock.desktop</launchable>
++  <developer_name>Alynx Zhou</developer_name>
+   
+   <supports>
+     <control>pointing</control>
+@@ -26,6 +27,8 @@
+     </p>
+   </description>
+   <url type="homepage">https://flipclock.alynx.one/</url>
++  <url type="bugtracker">https://github.com/AlynxZhou/flipclock/issues</url>
++  <url type="vcs-browser">https://github.com/AlynxZhou/flipclock</url>
+   <screenshots>
+     <screenshot type="default">
+       <image>https://flipclock.alynx.one/images/screenshot-1.png</image>
+--
+libgit2 1.7.2
+
